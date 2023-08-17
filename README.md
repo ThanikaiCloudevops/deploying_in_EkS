@@ -31,12 +31,14 @@ Dockerize your application by creating a Dockerfile in your project's root direc
 
 Build your Docker image locally to ensure everything is working as expected. Run the following commands:
 
-<details>
-docker build -t my-app .
-  </details>
-<details>
-docker run -d -p 8080:80 my-app
-</details>
+```http
+   docker build -t my-app .
+```
+#### Docker Commands
+
+```http
+  docker run -d -p 8080:80 my-app
+```
 
 <strong>**Step 4: Push Image to Amazon ECR**</strong>
 

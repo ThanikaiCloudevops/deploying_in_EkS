@@ -22,7 +22,7 @@ Welcome to the Projects Memory System Utilization Project repository!
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/ThanikaiCloudevops/deploying_in_EkS
 ```
 
 ```bash
@@ -56,7 +56,7 @@ aws ecr create-repository --repository-name my-app-repo
 ```bash
 docker tag my-app:latest <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
 ```
-```http
+```bash
 docker push <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
 ```
 

@@ -26,7 +26,7 @@ git clone https://github.com/ThanikaiCloudevops/deploying_in_EkS
 ```
 
 ```bash
-cd your-repo
+cd deploying_in_EkS
 ```
 
 ## **Step 2: Dockerize Your Application**

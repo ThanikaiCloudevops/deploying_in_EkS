@@ -45,6 +45,7 @@ Amazon ECR provides a secure and scalable container image registry. Push your Do
 aws ecr create-repository --repository-name my-app-repo
 
 docker tag my-app:latest <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
+
 docker push <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
 
 **Step 5: Set Up Amazon EKS Cluster**

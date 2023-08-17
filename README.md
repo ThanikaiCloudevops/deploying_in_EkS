@@ -21,11 +21,11 @@ Welcome to the Projects Memory System Utilization Project repository!
 
 ## Step 1: Clone the Repository
 
-```http
+```bash
 git clone https://github.com/your-username/your-repo.git
 ```
 
-```http
+```bash
 cd your-repo
 ```
 
@@ -39,10 +39,10 @@ Dockerize your application by creating a Dockerfile in your project's root direc
 Build your Docker image locally to ensure everything is working as expected. Run the following commands:
 #### Docker Commands
 
-```http
+```bash
    docker build -t my-app .
 ```
-```http
+```bash
   docker run -d -p 8080:80 my-app
 ```
 
@@ -50,10 +50,10 @@ Build your Docker image locally to ensure everything is working as expected. Run
 
 Amazon ECR provides a secure and scalable container image registry. Push your Docker image to ECR for easy deployment later:
 
-```http
+```bash
 aws ecr create-repository --repository-name my-app-repo
 ```
-```http
+```bash
 docker tag my-app:latest <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
 ```
 ```http

@@ -44,17 +44,23 @@ Build your Docker image locally to ensure everything is working as expected. Run
 
 Amazon ECR provides a secure and scalable container image registry. Push your Docker image to ECR for easy deployment later:
 
+```http
 aws ecr create-repository --repository-name my-app-repo
-
+```
+#
+```http
 docker tag my-app:latest <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
-
+```
+#
+```http
 docker push <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
-
+```
 **Step 5: Set Up Amazon EKS Cluster**
 
 Amazon EKS simplifies Kubernetes cluster management. Create an EKS cluster through the AWS Management Console or using the AWS CLI.
 Utilize Kubernetes manifests to define how your application should run in the cluster. Create deployment and service boto3 files, specifying the Docker image from ECR and any required configurations.
 
 
-
+## 🚀 About Me
+I'm a Cloud and devops Engineer...
 

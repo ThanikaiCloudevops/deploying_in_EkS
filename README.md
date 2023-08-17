@@ -18,9 +18,13 @@ Welcome to the Projects Memory System Utilization Project repository!
 
 <strong>**Step 1: Clone the Repository**<strong>
 
+```http
 git clone https://github.com/your-username/your-repo.git
-cd your-repo
+```
 
+```http
+cd your-repo
+```
 
 <strong>**Step 2: Dockerize Your Application**</strong>
 

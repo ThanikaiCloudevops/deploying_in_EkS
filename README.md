@@ -19,7 +19,7 @@ Basic knowlegde of Docker, AWS, ECR,EKS,python ...
 
 Welcome to the Projects Memory System Utilization Project repository! 
 
-## **Step 1: Clone the Repository**
+## Step 1: Clone the Repository
 
 ```http
 git clone https://github.com/your-username/your-repo.git

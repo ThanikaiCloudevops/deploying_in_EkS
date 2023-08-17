@@ -1,4 +1,6 @@
 # deploying_in_EkS
+
+![Logo](https://miro.medium.com/v2/resize:fit:736/0*GQ9yZONi-jMH4Ei1.png)
 <summary>
 Welcome to the Projects Memory System Utilization Project repository! 
 This project focuses on optimizing memory system utilization using Docker, Amazon Elastic Container Registry (ECR), and

@@ -71,6 +71,10 @@ Utilize Kubernetes manifests to define how your application should run in the cl
 [Documentation] ([https://linktodocumentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 
 
+## 🔗 Links
+[![linkedin](linkedin.com/in/thanikai-chandran-400486227)](https://www.linkedin.com/)
+
+
 ## 🚀 About Me
 I'm a Cloud and devops Engineer...
 

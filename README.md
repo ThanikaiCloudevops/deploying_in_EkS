@@ -15,7 +15,7 @@ Join us on this journey towards mastering memory-efficient system utilization wi
 ## 🛠 Skills
 Basic knowlegde of Docker, AWS, ECR,EKS,python ...
 
-<strong>**Projects Memory System Utilization Project**<strong>
+## **Projects Memory System Utilization Project**
 
 Welcome to the Projects Memory System Utilization Project repository! 
 

@@ -12,6 +12,9 @@ just stepping into the world of containerization and orchestration, this project
 Join us on this journey towards mastering memory-efficient system utilization with Docker, ECR, and EKS
 </summary>
 
+## 🛠 Skills
+Basic knowlegde of Docker, AWS, ECR,EKS,python ...
+
 <strong>**Projects Memory System Utilization Project**<strong>
 
 Welcome to the Projects Memory System Utilization Project repository! 

@@ -59,6 +59,11 @@ Amazon EKS simplifies Kubernetes cluster management. Create an EKS cluster throu
 Utilize Kubernetes manifests to define how your application should run in the cluster. Create deployment and service boto3 files, specifying the Docker image from ECR and any required configurations.
 
 
+## Documentation
+
+[Documentation] ([https://linktodocumentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+
+
 ## 🚀 About Me
 I'm a Cloud and devops Engineer...
 

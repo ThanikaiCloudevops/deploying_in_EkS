@@ -43,6 +43,7 @@ docker run -d -p 8080:80 my-app
 Amazon ECR provides a secure and scalable container image registry. Push your Docker image to ECR for easy deployment later:
 
 aws ecr create-repository --repository-name my-app-repo
+
 docker tag my-app:latest <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
 docker push <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
 

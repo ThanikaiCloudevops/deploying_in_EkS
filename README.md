@@ -19,7 +19,7 @@ Basic knowlegde of Docker, AWS, ECR,EKS,python ...
 
 Welcome to the Projects Memory System Utilization Project repository! 
 
-##<strong>**Step 1: Clone the Repository**<strong>
+## **Step 1: Clone the Repository**
 
 ```http
 git clone https://github.com/your-username/your-repo.git
@@ -29,12 +29,12 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ```
 
-##<strong>**Step 2: Dockerize Your Application**</strong>
+## **Step 2: Dockerize Your Application**
 
 Containerization is key to achieving consistent application behavior across different environments.
 Dockerize your application by creating a Dockerfile in your project's root directory. Define the required dependencies, configurations, and runtime environment.
 
-##<strong>**Step 3: Build and Test Locally**</strong>
+## **Step 3: Build and Test Locally**
 
 Build your Docker image locally to ensure everything is working as expected. Run the following commands:
 #### Docker Commands
@@ -46,7 +46,7 @@ Build your Docker image locally to ensure everything is working as expected. Run
   docker run -d -p 8080:80 my-app
 ```
 
-##<strong>**Step 4: Push Image to Amazon ECR**</strong>
+## **Step 4: Push Image to Amazon ECR**
 
 Amazon ECR provides a secure and scalable container image registry. Push your Docker image to ECR for easy deployment later:
 
@@ -60,7 +60,7 @@ docker tag my-app:latest <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/m
 docker push <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
 ```
 
-##**Step 5: Set Up Amazon EKS Cluster**
+## **Step 5: Set Up Amazon EKS Cluster**
 
 Amazon EKS simplifies Kubernetes cluster management. Create an EKS cluster through the AWS Management Console or using the AWS CLI.
 Utilize Kubernetes manifests to define how your application should run in the cluster. Create deployment and service boto3 files, specifying the Docker image from ECR and any required configurations.

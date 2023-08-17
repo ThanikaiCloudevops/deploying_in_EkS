@@ -30,12 +30,11 @@ Dockerize your application by creating a Dockerfile in your project's root direc
 <strong>**Step 3: Build and Test Locally**</strong>
 
 Build your Docker image locally to ensure everything is working as expected. Run the following commands:
+#### Docker Commands
 
 ```http
    docker build -t my-app .
 ```
-#### Docker Commands
-
 ```http
   docker run -d -p 8080:80 my-app
 ```
@@ -47,14 +46,13 @@ Amazon ECR provides a secure and scalable container image registry. Push your Do
 ```http
 aws ecr create-repository --repository-name my-app-repo
 ```
-#
 ```http
 docker tag my-app:latest <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
 ```
-#
 ```http
 docker push <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
 ```
+
 **Step 5: Set Up Amazon EKS Cluster**
 
 Amazon EKS simplifies Kubernetes cluster management. Create an EKS cluster through the AWS Management Console or using the AWS CLI.

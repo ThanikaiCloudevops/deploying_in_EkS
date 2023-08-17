@@ -1,4 +1,5 @@
 # deploying_in_EkS
+<summary>
 Welcome to the Projects Memory System Utilization Project repository! 
 This project focuses on optimizing memory system utilization using Docker, Amazon Elastic Container Registry (ECR), and
 Amazon Elastic Kubernetes Service (EKS). In today's dynamic computing landscape, efficient resource management is paramount, and 
@@ -9,7 +10,7 @@ This repository serves as a comprehensive guide, offering step-by-step instructi
 best practices for achieving optimal memory utilization while streamlining the deployment process. Whether you're a seasoned DevOps professional or
 just stepping into the world of containerization and orchestration, this project will provide valuable insights and hands-on experience. 
 Join us on this journey towards mastering memory-efficient system utilization with Docker, ECR, and EKS
-
+</summary>
 
 <strong>**Projects Memory System Utilization Project**<strong>
 
@@ -21,20 +22,34 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
 
-<strong>**Step 2: Dockerize Your Application**<strong>
+<strong>**Step 2: Dockerize Your Application**</strong>
 
 Containerization is key to achieving consistent application behavior across different environments.
 Dockerize your application by creating a Dockerfile in your project's root directory. Define the required dependencies, configurations, and runtime environment.
 
-<strong>**Step 3: Build and Test Locally**<strong>
+<strong>**Step 3: Build and Test Locally**</strong>
 
 Build your Docker image locally to ensure everything is working as expected. Run the following commands:
 
 <details>
 docker build -t my-app .
+  </details>
+<details>
 docker run -d -p 8080:80 my-app
 </details>
 
+<strong>**Step 4: Push Image to Amazon ECR**</strong>
+
+Amazon ECR provides a secure and scalable container image registry. Push your Docker image to ECR for easy deployment later:
+
+**aws ecr create-repository --repository-name my-app-repo
+docker tag my-app:latest <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest
+docker push <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/my-app-repo:latest**
+
+**Step 5: Set Up Amazon EKS Cluster**
+
+Amazon EKS simplifies Kubernetes cluster management. Create an EKS cluster through the AWS Management Console or using the AWS CLI.
+Utilize Kubernetes manifests to define how your application should run in the cluster. Create deployment and service boto3 files, specifying the Docker image from ECR and any required configurations.
 
 
 
